@@ -21,6 +21,7 @@ const Register = () => {
             navigate("/login");
           })
           .catch((error) => {
+            alert("Enter minimum 6 letter password");
             console.log(error);
           });
 
